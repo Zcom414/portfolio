@@ -1,11 +1,11 @@
-import { Present} from "../componnents/Presentation";
-import { About } from "../componnents/About";
-import { Techno } from "../componnents/techno";
-import { Cards } from "../componnents/Cards";
-import { Contact } from "../componnents/Contact";
-import { Navbar } from "../componnents/Navbar";
-
 export const Home = () => {
+  const Present = () => {'./componnents/Presentation'}
+  const About = () => {'./componnents/About'}
+  const Techno = () => {'./componnents/Techno'}
+  const Cards = () => {'./componnents/Cards'}
+  const Contact = () => {'./componnents/Contact'}
+  const Navbar = () => {'./componnents/Navbar'}
+
   return (
    <>
       <Navbar/>
