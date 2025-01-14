@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const App = () => {
+export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -16,8 +16,12 @@ const App = () => {
     const targetElement = document.getElementById(targetId);
     const targetPosition = targetElement.offsetTop;
 
+    // Compensez la hauteur de la navbar (ajustez selon la hauteur réelle)
+  const navbarHeight = document.querySelector(".menu").offsetHeight;
+
+
     window.scrollTo({
-      top: targetPosition,
+      top: targetPosition - (navbarHeight + 20),
       behavior: "smooth",
     });
 
@@ -27,8 +31,9 @@ const App = () => {
   
 
   return (
-    <header>
-      <section className="navigation-grp">
+    <>
+      <header className="navigation-grp">
+
         <nav>
           <FontAwesomeIcon
             className="burger-icon"
@@ -41,19 +46,25 @@ const App = () => {
             
             <li>
               <a href="#pres" onClick={(event) => smoothScroll(event, "pres")}>
-                Home
+                Recherche
               </a>
             </li>
 
             <li>
               <a href="#about" onClick={(event) => smoothScroll(event, "about")}>
-                About
+                A propos 
               </a>
             </li>
 
             <li>
-              <a href="#services" onClick={(event) => smoothScroll(event, "services")}>
-                Services
+              <a href="#techs" onClick={(event) => smoothScroll(event, "techs")}>
+                Technologies
+              </a>
+            </li>
+
+            <li>
+              <a href="#projets" onClick={(event) => smoothScroll(event, "projets")}>
+                Projets
               </a>
             </li>
 
@@ -65,10 +76,8 @@ const App = () => {
             
           </ul>
         </nav>
-      </section>
+      </header>
       
-    </header>
+    </>
   );
 };
-
-export default App;

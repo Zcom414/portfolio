@@ -7,7 +7,7 @@ export const Contact = () => {
 
     return (
         <>
-            <article className="contacts container animate-on-scroll">
+            <article className="contacts container animate-on-scroll" id="contact">
 
                 <h2 className="title yellow">Contact</h2>
 
@@ -38,11 +38,7 @@ export const Contact = () => {
                     </a>
             </div>
         </li>
-                
-
-               
-
-                
+                  
         </ul>
             </article>
         </>

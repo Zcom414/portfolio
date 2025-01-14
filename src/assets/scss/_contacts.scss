@@ -25,3 +25,32 @@
 .contact .c{
     font-size: 2em;
 }
+
+///////////////////////////
+///      PC DISPLAY //////
+///////////////////////////
+
+@media (min-width: 1024px){
+    .contacts{
+      
+    }
+
+    .contacts ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact{
+        font-size: 1.2em;
+    }
+
+    .contact a p{
+        margin: 0;
+    }
+    
+
+    .contact .c{
+        font-size: 1.5em;
+        margin-right: 1rem;
+    }
+}

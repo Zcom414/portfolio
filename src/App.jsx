@@ -1,5 +1,4 @@
 import { Home } from '../pages/Home'
-import NavBar from '../componnents/Navbar'
 
 /*ASSETS*/
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -13,7 +12,6 @@ function App() {
 
   return (
     <>
-     <NavBar/>
      <Routes>
         <Route path='/' element={<Home/>}/>
      </Routes>

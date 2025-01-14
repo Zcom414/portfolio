@@ -139,3 +139,30 @@ a {
     justify-content: space-around;
 
 }
+
+@media screen and (min-width: 1024px){
+
+    html{
+        font-size: 1rem;
+
+    }
+
+    main{
+        margin-top: 0;
+    }
+
+    section{
+        z-index: 0;
+    }
+
+
+    .container{
+        margin-left: 20em;
+        margin-right: 20em;
+    }
+    
+    .btn:hover{
+        background-color: var(--code-color1);
+       color: var(--code-color2);
+    }
+}

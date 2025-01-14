@@ -2,7 +2,7 @@ export const Cards = () => {
 
     return(
         <>
-        <article className="container animate-on-scroll">
+        <article className="container animate-on-scroll" id="projets">
             <h2 className="title yellow">Projets</h2>
 
             <section className="cards-container">

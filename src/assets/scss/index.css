@@ -52,6 +52,34 @@
   padding: 0em 0.5em 0em 0.5em;
 }
 
+@media screen and (min-width: 1024px) {
+  .burger-icon {
+    display: none; /* Correct */
+  }
+  header {
+    background-color: rgba(1, 132, 165, 0.336);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 9.49em;
+    z-index: 1000;
+  }
+  .menu {
+    top: 0em; /* Collez l'élément en haut de la page */
+    /* Assurez-vous qu'il est au-dessus d'autres éléments */
+    position: sticky;
+    height: auto;
+    width: 100%;
+    background-color: rgba(1, 132, 165, 0.336);
+    opacity: 1;
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .menu li:hover {
+    background-color: var(--code-color5);
+  }
+}
 .research article {
   display: flex;
 }
@@ -102,6 +130,44 @@
   margin: 1em 0 1em 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card {
+    border: 5px solid;
+    border-radius: 15%; /* Réduction du rayon pour un look plus raffiné */
+    display: flex;
+    flex-direction: column; /* Affichage du contenu des cartes en colonne */
+    overflow: hidden;
+    transition: 0.3s;
+    width: 40%; /* Ajustement pour une disposition fluide */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Agrandissement de la carte au survol */
+    color: var(--code-color5);
+  }
+  .card h3 {
+    margin-left: 1em;
+  }
+  .card p {
+    color: azure;
+    font-size: 1.2rem; /* Agrandir légèrement le texte */
+    text-align: center; /* Centrer le texte */
+  }
+  .card img {
+    width: 100%; /* L'image occupe toute la largeur de la carte */
+    height: auto;
+    margin: 0em 1em 0em 1em; /* Supprime le margin */
+    border-bottom: 2px solid; /* Ajoute une séparation avec le reste de la carte */
+  }
+  .card div {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
 .location {
   background-color: var(--color-highlight);
 }
@@ -160,6 +226,22 @@
   font-size: 2em;
 }
 
+@media (min-width: 1024px) {
+  .contacts ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .contact {
+    font-size: 1.2em;
+  }
+  .contact a p {
+    margin: 0;
+  }
+  .contact .c {
+    font-size: 1.5em;
+    margin-right: 1rem;
+  }
+}
 /*SCCSS attribués à touts les composants*/
 :root {
   line-height: 1.5;
@@ -297,4 +379,24 @@ body {
 .btns_case {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 1rem;
+  }
+  main {
+    margin-top: 0;
+  }
+  section {
+    z-index: 0;
+  }
+  .container {
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  .btn:hover {
+    background-color: var(--code-color1);
+    color: var(--code-color2);
+  }
 }/*# sourceMappingURL=index.css.map */

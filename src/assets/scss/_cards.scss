@@ -22,3 +22,52 @@
     height: auto;
     margin: 1em 0 1em 0
 }
+
+// /////////////////////////////////////
+// ////         MEDIA PC         //////
+// ////////////////////////////////////
+
+@media screen and (min-width: 1024px) {
+  .cards-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+  }
+
+  .card {
+    border: 5px solid; 
+    border-radius: 15%; /* Réduction du rayon pour un look plus raffiné */
+    display: flex;
+    flex-direction: column; /* Affichage du contenu des cartes en colonne */
+    overflow: hidden;
+    transition: 0.3s;
+    width: 40%; /* Ajustement pour une disposition fluide */
+  }
+
+  .card:hover{
+    transform: scale(1.1); /* Agrandissement de la carte au survol */
+    color: var(--code-color5);
+  }
+
+  .card h3{
+    margin-left: 1em;
+  }
+
+  .card p {
+    color: azure;
+    font-size: 1.2rem; /* Agrandir légèrement le texte */
+    text-align: center; /* Centrer le texte */
+  }
+
+  .card img {
+    width: 100%; /* L'image occupe toute la largeur de la carte */
+    height: auto;
+    margin: 0em 1em 0em 1em; /* Supprime le margin */
+    border-bottom: 2px solid; /* Ajoute une séparation avec le reste de la carte */
+  }
+
+  .card div{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

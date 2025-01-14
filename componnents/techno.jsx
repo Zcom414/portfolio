@@ -5,7 +5,7 @@ export const Techno = () => {
 
     return(
     <>
-    <article className='techs container animate-on-scroll'>
+    <article className='techs container animate-on-scroll' id='techs'>
         <h2 className='title yellow'>Technologies</h2>
         
         <section className='techs-container'>

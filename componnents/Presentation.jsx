@@ -25,8 +25,8 @@ export const Present = () => {
                             <p><span className="blue">const</span> <span className="yellow">ContactButtons</span> = <span className="cyan">document</span>.<span className="yellow">querrySelectorAll</span><span className="blue">{"("}</span><span className="cyan">.my_btns</span><span className="blue">{")"}</span>.<span className="yellow">forEach</span><span className="blue">{"("}</span><span className="cyan">button<span className="blue">={">"}</span> button.style.display = <span className="orange">{"'"}block{"'"}</span></span><span className="blue">{")"}</span></p>
                             
                             <div className="btns_case">
-                                <a className="btn" href="">Me contacter</a>
-                                <a className="btn" href="">Mon CV</a>
+                                <a className="btn" href="#contact">Me contacter</a>
+                                <a className="btn" href="../src/assets/cv.pdf">Mon CV</a>
                             </div>
                         </section>
                 </section>

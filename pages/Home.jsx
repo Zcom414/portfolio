@@ -3,15 +3,20 @@ import { About } from "../componnents/About";
 import { Techno } from "../componnents/techno";
 import { Cards } from "../componnents/Cards";
 import { Contact } from "../componnents/Contact";
+import { Navbar } from "../componnents/Navbar";
 
 export const Home = () => {
   return (
    <>
-    <Present/>
-    <About/>
-    <Techno/>
-    <Cards/>
-    <Contact/>
+      <Navbar/>
+        <main>
+          <Present/>
+          <About/>
+          <Techno/>
+          <Cards/>
+          <Contact/>
+        </main>
+
    </>
   )
 }
