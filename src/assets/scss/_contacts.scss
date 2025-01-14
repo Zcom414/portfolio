@@ -1,0 +1,27 @@
+.contacts{
+    margin-bottom: 24em;
+}
+
+.contacts ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact{
+    font-size: 1.5em;
+    gap: 1em;
+}
+.contact a{
+    display: flex;
+}
+
+.contact a p{
+    margin: 0.5rem 0 0 1em;
+}
+
+.contact .c{
+    font-size: 2em;
+}

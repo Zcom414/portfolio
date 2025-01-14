@@ -1,0 +1,51 @@
+/* Icône burger */
+.burger-icon {
+  display: flex;
+  position: fixed;
+  top: 0; 
+  right: 1em; 
+  padding: 1em; 
+  border-radius: 0.5em; 
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* Menu - État initial (fermé) */
+.menu {
+  background-color: rgba(1, 132, 165, 0.336);
+  height: 100vh;
+  width: 100vw;
+  padding: 0 0.5em 0 0.5em; 
+  position: fixed;
+  top: -1em;
+  left: 100vw; 
+  opacity: 0; 
+  pointer-events: none;
+  transition: left 0.5s ease, opacity 0.5s ease; /* Transition sur left et opacity */
+  z-index: 10;
+}
+
+/* Menu - État ouvert */
+.menu.open {
+  background-color: rgba(1, 132, 165, 0.336);
+  left: 50vw; /* Position visible */
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Menu Items */
+.menu li {
+  display: block;
+  margin: 0;
+}
+
+.menu li a {
+  display: block;
+  color: rgb(245, 238, 238);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2rem;
+  margin: 2em; 
+  font-size: 1.6rem; 
+  padding: 0em 0.5em 0em 0.5em; 
+}

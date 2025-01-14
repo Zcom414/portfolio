@@ -1,0 +1,24 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.card {
+  border: 5px solid; 
+  border-radius: 25%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card p{
+    color: azure;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    margin: 1em 0 1em 0
+}

@@ -1,0 +1,25 @@
+/* Masquer les éléments par défaut */
+.animate-on-scroll {
+  margin-top: 12em;
+    opacity: 0;
+    transform: translateY(5em); /* Décaler les éléments vers le bas */
+    visibility: hidden; /* Rendre complètement invisible */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  /* Afficher les éléments lorsqu'ils sont visibles */
+  .animate-on-scroll.active {
+    opacity: 1;
+    transform: translateY(0); /* Ramener à la position initiale */
+    visibility: visible; /* Rendre visible */
+  }
+  
+  /* Ajout de variantes si besoin */
+  .slide-in {
+    transform: translateX(-5em);
+  }
+  
+  .slide-in.active {
+    transform: translateX(0);
+  }
+  
