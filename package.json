@@ -6,8 +6,9 @@
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "deploy": "npm run build && gh-pages -d dist"
-},"homepage": "https://Zcom414.github.io/Portfolio/",
+  "deploy": "gh-pages -d dist"
+},
+"homepage": "https://Zcom414.github.io/portfolio/",
 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
