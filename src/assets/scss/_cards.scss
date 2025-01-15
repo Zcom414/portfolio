@@ -39,6 +39,7 @@
     border-radius: 15%; /* Réduction du rayon pour un look plus raffiné */
     display: flex;
     flex-direction: column; /* Affichage du contenu des cartes en colonne */
+<<<<<<< HEAD
     transition: 0.3s;
     width: 40%; /* Ajustement pour une disposition fluide */;
     padding-bottom: 5.5em;
@@ -47,6 +48,11 @@
 
   .card h3{
     font-size: 2em;
+=======
+    overflow: hidden;
+    transition: 0.3s;
+    width: 40%; /* Ajustement pour une disposition fluide */
+>>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
   }
 
   .card:hover{

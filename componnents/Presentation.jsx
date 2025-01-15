@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 export const Present = () => {
 
+=======
+import { useScrollAnimation } from '../hooks/scrollAnimation';
+
+export const Present = () => {
+
+     // Apply animation to elements with the class .animate-on-scroll
+    useScrollAnimation();
+
+>>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
     return(
         <>
             <section className="research container animate-on-scroll" id="pres">

@@ -1,7 +1,13 @@
 /* Masquer les éléments par défaut */
 .animate-on-scroll {
+<<<<<<< HEAD
     opacity: 0;
     transform: translateY(0); /* Décaler les éléments vers le bas */
+=======
+    margin-top: 12em;
+    opacity: 0;
+    transform: translateY(5em); /* Décaler les éléments vers le bas */
+>>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
     visibility: hidden; /* Rendre complètement invisible */
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }

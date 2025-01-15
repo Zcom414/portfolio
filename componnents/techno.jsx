@@ -5,7 +5,11 @@ export const Techno = () => {
 
     return(
     <>
+<<<<<<< HEAD
     <article className='techs animate-on-scroll' id='techs'>
+=======
+    <article className='techs container animate-on-scroll' id='techs'>
+>>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
         <h2 className='title yellow'>Technologies</h2>
         
         <section className='techs-container'>

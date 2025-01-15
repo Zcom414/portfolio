@@ -7,7 +7,11 @@ export const Contact = () => {
 
     return (
         <>
+<<<<<<< HEAD
             <article className="contacts animate-on-scroll" id="contact">
+=======
+            <article className="contacts container animate-on-scroll" id="contact">
+>>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
 
                 <h2 className="title yellow">Contact</h2>
 
