@@ -10,11 +10,7 @@ export const useScrollAnimation = (selector = ".animate-on-scroll") => {
 
         // Vérifie si l'élément est totalement dans la fenêtre
         const isFullyVisible =
-<<<<<<< HEAD
           rect.top >= 0 && rect.bottom <= window.innerHeight;
-=======
-          rect.top >= 0.5 && rect.bottom <= window.innerHeight;
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
 
         if (isFullyVisible) {
           el.classList.add("active"); // Ajouter la classe pour afficher

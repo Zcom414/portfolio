@@ -32,12 +32,7 @@ export const Navbar = () => {
 
   return (
     <>
-<<<<<<< HEAD
     <header>
-=======
-      <header className="navigation-grp">
-
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
         <nav>
           <FontAwesomeIcon
             className="burger-icon"
@@ -80,12 +75,8 @@ export const Navbar = () => {
             
           </ul>
         </nav>
-<<<<<<< HEAD
     </header>
 
-=======
-      </header>
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
       
     </>
   );

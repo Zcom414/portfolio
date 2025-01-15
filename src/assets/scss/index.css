@@ -57,7 +57,6 @@
     display: none; /* Correct */
   }
   header {
-<<<<<<< HEAD
     position: sticky;
     width: 100%;
     height: 9.49em;
@@ -71,30 +70,9 @@
     height: auto;
     width: 100%;
     margin-top: 0;
-=======
-    background-color: rgba(1, 132, 165, 0.336);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 9.49em;
-    z-index: 1000;
-  }
-  .menu {
-    top: 0em; /* Collez l'élément en haut de la page */
-    /* Assurez-vous qu'il est au-dessus d'autres éléments */
-    position: sticky;
-    height: auto;
-    width: 100%;
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
     background-color: rgba(1, 132, 165, 0.336);
     opacity: 1;
     pointer-events: auto;
-    display: flex;
-    justify-content: center;
-<<<<<<< HEAD
-    z-index: 9999;
-=======
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
   }
   .menu li:hover {
     background-color: var(--code-color5);
@@ -161,7 +139,6 @@
     border-radius: 15%; /* Réduction du rayon pour un look plus raffiné */
     display: flex;
     flex-direction: column; /* Affichage du contenu des cartes en colonne */
-<<<<<<< HEAD
     transition: 0.3s;
     width: 40%; /* Ajustement pour une disposition fluide */
     padding-bottom: 5.5em;
@@ -169,11 +146,6 @@
   }
   .card h3 {
     font-size: 2em;
-=======
-    overflow: hidden;
-    transition: 0.3s;
-    width: 40%; /* Ajustement pour une disposition fluide */
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
   }
   .card:hover {
     transform: scale(1.1); /* Agrandissement de la carte au survol */
@@ -204,14 +176,8 @@
 
 /* Masquer les éléments par défaut */
 .animate-on-scroll {
-<<<<<<< HEAD
   opacity: 0;
   transform: translateY(0); /* Décaler les éléments vers le bas */
-=======
-  margin-top: 12em;
-  opacity: 0;
-  transform: translateY(5em); /* Décaler les éléments vers le bas */
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
   visibility: hidden; /* Rendre complètement invisible */
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
@@ -423,21 +389,12 @@ body {
   main {
     margin-top: 0;
   }
-<<<<<<< HEAD
   article {
     margin-bottom: 5em;
   }
   .container {
     margin-left: 10em;
     margin-right: 10em;
-=======
-  section {
-    z-index: 0;
-  }
-  .container {
-    margin-left: 20em;
-    margin-right: 20em;
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
   }
   .btn:hover {
     background-color: var(--code-color1);

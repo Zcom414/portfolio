@@ -13,11 +13,7 @@ function App() {
   return (
     <>
      <Routes>
-<<<<<<< HEAD
         <Route path='/' element={<Home/>}/>
-=======
-        <Route path='/home' element={<Home/>}/>
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
      </Routes>
     </>
   )

@@ -3,11 +3,7 @@ export const About = () =>{
     return(
         <>
         
-<<<<<<< HEAD
         <article className="about animate-on-scroll" id="about">
-=======
-        <article className="about container animate-on-scroll" id="about">
->>>>>>> 02a99b613430dd43b53ff63b2845a36217e19811
             <h2 className="title yellow">a propos de moi</h2>
 
                 <p>Un profil anciennement littéraire ,je me dirigeais plutôt vers des études de droit. N{"'"}ayant pas su trouvé ma place dans celles-cis et toujours autant passioné d{"'"}informatique,
