@@ -9,7 +9,7 @@
   /* Afficher les éléments lorsqu'ils sont visibles */
   .animate-on-scroll.active {
     opacity: 1;
-    transform: translateY(0); /* Ramener à la position initiale */
+    transform: translateY(5em); /* Ramener à la position initiale */
     visibility: visible; /* Rendre visible */
   }
   
