@@ -1,15 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faSass, faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { CIcon } from '@coreui/icons-react';
+import { cibMongodb , cibMysql } from '@coreui/icons';
 export const Techno = () => {
 
     return(
     <>
-    <article className='techs animate-on-scroll' id='techs'>
+    <article className='techs animate-on-scroll'id='tech'>
         <h2 className='title yellow'>Technologies</h2>
         
         <section className='techs-container'>
-            <div className='techno'>
+            <div className='techno' >
                 <FontAwesomeIcon icon={faHtml5} className='icon'/>
                 <p>HTML</p>
             </div>
@@ -40,8 +41,13 @@ export const Techno = () => {
             </div>
 
             <div className='techno'>
-                <FontAwesomeIcon icon={faDatabase} className='icon'/>
-                <p>MongoDb & MySql</p>
+                <CIcon icon={cibMongodb} className='icon'/>
+                <p>MongoDb</p>
+            </div>
+
+            <div className='techno'>
+                <CIcon icon={cibMysql} className='icon'/>
+                <p>MySql</p>
             </div>
 
         </section>

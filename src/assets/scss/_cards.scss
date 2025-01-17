@@ -6,7 +6,7 @@
 
 .card {
   border: 5px solid; 
-  border-radius: 25%;
+  border-radius: 20%;
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
@@ -23,11 +23,22 @@
     margin: 1em 0 1em 0
 }
 
+
+.card-icon{
+  width: 2em;
+  height: 2em;
+  margin: 0 1em;
+  background-color: var(--code-color1);
+  border-radius: 50%;
+  padding: 1em;
+  color: black;
+}
 // /////////////////////////////////////
 // ////         MEDIA PC         //////
 // ////////////////////////////////////
 
 @media screen and (min-width: 1024px) {
+
   .cards-container {
     display: flex;
     flex-direction: row; 
@@ -75,4 +86,20 @@
     margin-left: 1em;
     margin-right: 1em;
   }
+
+
+.card-icon{
+  width: 2em;
+  height: 2em;
+  margin: 0 1em;
+  background-color: var(--code-color1);
+  border-radius: 50%;
+  padding: 1em;
+  color: black;
+}
+
+  .card:hover .icon-cards {
+    background-color: var(--code-color5); /* Remplacez par la couleur désirée */
+}
+
 }

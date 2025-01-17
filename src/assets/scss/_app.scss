@@ -14,6 +14,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 /*/////////////////////////////////////////////////////////////////*/
 /**************************GENERAL STYLES****************************/ 
 /*/////////////////////////////////////////////////////////////////*/
@@ -26,6 +27,10 @@ html{
 h1{
     font-size: var(--size-h1);
 }
+
+// article{
+//     margin-top: 3em;
+// }
 
 a {
     font-weight: 500;
@@ -133,11 +138,6 @@ a {
     transition: all 0.3s;
 }
 
-.btns_case{
-    display: flex;
-    justify-content: space-around;
-
-}
 
 @media screen and (min-width: 1024px){
 
@@ -163,6 +163,11 @@ a {
     .container{
         margin-left: 10em;
         margin-right: 10em;
+    }
+
+    .btn{
+        font-size: 1.5em;
+        padding: 2em 4em;
     }
     
     .btn:hover{

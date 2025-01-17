@@ -56,7 +56,7 @@ export const Navbar = () => {
             </li>
 
             <li>
-              <a href="#techs" onClick={(event) => smoothScroll(event, "techs")}>
+              <a href="#tech" onClick={(event) => smoothScroll(event, "tech")}>
                 Technologies
               </a>
             </li>

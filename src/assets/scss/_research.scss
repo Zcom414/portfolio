@@ -2,7 +2,16 @@
     display: flex;
 }
 
-@media screen and (max-width: 1024px){
-   
+.btns_case{
+    display: flex;
+    justify-content: center;
+    gap : 2em;
+
+}
+
+@media screen and (min-width: 1024px){
+   .btns_case{
+    gap : 10em
+   }
    }
     

@@ -1,5 +1,6 @@
 /* Icône burger */
 .burger-icon {
+  font-size: 2em;
   display: flex;
   position: fixed;
   top: 0; 
@@ -45,7 +46,7 @@
   text-transform: uppercase;
   text-decoration: none;
   line-height: 2rem;
-  margin: 2em; 
+  margin: 2em 1em; 
   font-size: 1.6rem; 
   padding: 0em 0.5em 0em 0.5em; 
 }

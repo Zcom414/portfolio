@@ -2,6 +2,7 @@
 /* Icône burger */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .burger-icon {
+  font-size: 2em;
   display: flex;
   position: fixed;
   top: 0;
@@ -47,7 +48,7 @@
   text-transform: uppercase;
   text-decoration: none;
   line-height: 2rem;
-  margin: 2em;
+  margin: 2em 1em;
   font-size: 1.6rem;
   padding: 0em 0.5em 0em 0.5em;
 }
@@ -86,6 +87,17 @@
   display: flex;
 }
 
+.btns_case {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .btns_case {
+    gap: 10em;
+  }
+}
 .techs-container {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +117,17 @@
   background-color: var(--code-color1);
   border-radius: 50%;
   padding: 1em;
+  color: black;
+}
+
+.tech-icon-ci {
+  width: 5em;
+  height: 5em;
+  margin: 0 1em;
+  background-color: var(--code-color1);
+  border-radius: 50%;
+  padding: 1em;
+  color: black;
 }
 
 .cards-container {
@@ -115,7 +138,7 @@
 
 .card {
   border: 5px solid;
-  border-radius: 25%;
+  border-radius: 20%;
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
@@ -130,6 +153,16 @@
   width: 50%;
   height: auto;
   margin: 1em 0 1em 0;
+}
+
+.card-icon {
+  width: 2em;
+  height: 2em;
+  margin: 0 1em;
+  background-color: var(--code-color1);
+  border-radius: 50%;
+  padding: 1em;
+  color: black;
 }
 
 @media screen and (min-width: 1024px) {
@@ -172,6 +205,18 @@
   .card div {
     margin-left: 1em;
     margin-right: 1em;
+  }
+  .card-icon {
+    width: 2em;
+    height: 2em;
+    margin: 0 1em;
+    background-color: var(--code-color1);
+    border-radius: 50%;
+    padding: 1em;
+    color: black;
+  }
+  .card:hover .icon-cards {
+    background-color: var(--code-color5); /* Remplacez par la couleur désirée */
   }
 }
 .location {
@@ -380,11 +425,6 @@ body {
   transition: all 0.3s;
 }
 
-.btns_case {
-  display: flex;
-  justify-content: space-around;
-}
-
 @media screen and (min-width: 1024px) {
   html {
     font-size: 1rem;
@@ -401,6 +441,10 @@ body {
   .container {
     margin-left: 10em;
     margin-right: 10em;
+  }
+  .btn {
+    font-size: 1.5em;
+    padding: 2em 4em;
   }
   .btn:hover {
     background-color: var(--code-color1);

@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faJsSquare, faReact, faSass, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { CIcon } from '@coreui/icons-react';
+import { cibMongodb , cibMysql } from '@coreui/icons';
 export const Cards = () => {
 
     return(
@@ -11,6 +15,12 @@ export const Cards = () => {
                         <div className="title-card">
                             <h3>LTFO</h3>
                                 <p>Date : 03/2023 - 06/2023</p>
+                                
+                                    <FontAwesomeIcon icon={faJsSquare} className='card-icon'/>
+                                    <CIcon icon={cibMongodb} className='card-icon'/>
+                                    <FontAwesomeIcon icon={faReact} className='card-icon'/>
+                                    <FontAwesomeIcon icon={faSass} className='card-icon'/>
+                                    <FontAwesomeIcon icon={faNodeJs} className='card-icon'/>   
                         </div>
                 </a>
 
@@ -18,6 +28,12 @@ export const Cards = () => {
                         <div className="title-card">
                             <h3>Techolab - Stage</h3>
                                 <p>Date : 05/2023 - 06/2023</p>
+                            
+                                <FontAwesomeIcon icon={faJsSquare} className='card-icon'/>
+                                <CIcon icon={cibMysql} className='card-icon'/>
+                                <FontAwesomeIcon icon={faReact} className='card-icon'/>
+                                <FontAwesomeIcon icon={faSass} className='card-icon'/>
+                                <FontAwesomeIcon icon={faNodeJs} className='card-icon'/>   
                         </div>
                 </a>
 
