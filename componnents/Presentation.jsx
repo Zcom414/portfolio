@@ -23,7 +23,7 @@ export const Present = () => {
                             
                             <div className="btns_case">
                                 <a className="btn" onClick={() => {const target = document.getElementById("contact"); if (target) {target.scrollIntoView({ behavior: "smooth", block: "start" });} }}> Me contacter</a>
-                                <a className="btn" href="https://publuu.com/flip-book/772145/1712017/page/1?cover" target="_blank">Mon CV</a>
+                                <a className="btn" href="https://publuu.com/flip-book/831841/1828539" target="_blank">Mon CV</a>
                             </div>
                         </section>
                 </div>
