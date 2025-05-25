@@ -19,11 +19,11 @@ export const Present = () => {
                     <p><span className="violet">{'}'} else </span><span className="violet">{'{'}</span></p>
                         
                         <section className="btn-present">
-                            <p><span className="blue">const</span> <span className="yellow">ContactButtons</span> = <span className="cyan">document</span>.<span className="yellow">querrySelectorAll</span><span className="blue">{"("}</span><span className="cyan">.my_btns</span><span className="blue">{")"}</span>.<span className="yellow">forEach</span><span className="blue">{"("}</span><span className="cyan">button<span className="blue">={">"}</span> button.style.display = <span className="orange">{"'"}block{"'"}</span></span><span className="blue">{")"}</span></p>
+                            <p><span className="blue">const</span> <span className="yellow">ContactButtons</span> = <span className="cyan">document</span>.<span className="yellow">querySelectorAll</span><span className="blue">{"("}</span><span className="cyan">.my_btns</span><span className="blue">{")"}</span>.<span className="yellow">forEach</span><span className="blue">{"("}</span><span className="cyan">button<span className="blue">={">"}</span> button.style.display = <span className="orange">{"'"}block{"'"}</span></span><span className="blue">{")"}</span></p>
                             
                             <div className="btns_case">
                                 <a className="btn" onClick={() => {const target = document.getElementById("contact"); if (target) {target.scrollIntoView({ behavior: "smooth", block: "start" });} }}> Me contacter</a>
-                                <a className="btn" href="https://publuu.com/flip-book/831841/1828539" target="_blank">Mon CV</a>
+                                <a className="btn" href="../public/cv.pdf" target="_blank">Mon CV</a>
                             </div>
                         </section>
                 </div>
